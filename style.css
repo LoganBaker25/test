@@ -1,38 +1,62 @@
+/* style.css */
 body {
     font-family: Arial, sans-serif;
 }
+
 h1, h2 {
     color: #6c757d; /* Dark gray */
 }
-/* Styles for milestones */
+
 .milestone {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
 }
+
 .milestone:nth-child(odd) {
     background-color: #ffd700; /* Gold */
     color: #000; /* Black */
 }
+
 .milestone:nth-child(even) {
     background-color: #4169e1; /* Royal Blue */
     color: #fff; /* White */
 }
-/* Styles for images */
+
 .milestone img {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
 }
-/* Styles for the table */
+
 table {
     border: 2px solid #000; /* Black */
     border-collapse: collapse;
     width: 100%;
     margin-top: 20px;
 }
+
 th, td {
     border: 1px solid #000; /* Black */
     padding: 8px;
     text-align: left;
+}
+
+/* Additional Styles */
+.image-container {
+    text-align: center;
+}
+
+.milestone-header {
+    color: red;
+    font-size: 40px;
+    font-family: Fantasy;
+}
+
+.milestone-description {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }
