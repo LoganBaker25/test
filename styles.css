@@ -125,7 +125,14 @@ body {
     margin: 0 auto;
     border-radius: 50%;
 }
-/* Styles for the table */
+ @keyframes colorChange {
+    0% {
+        color: red;
+    }
+    100% {
+        color: skyblue;
+    }
+}
 table {
     border: 2px solid #000; /* Black */
     border-collapse: collapse;
@@ -144,20 +151,7 @@ th, td {
         color: skyblue;
     }
 }
-.milestone {
-    color: red;
-    font-size: 40px;
-    font-family: fantasy;
-}
 
-@keyframes colorChange {
-    0% {
-        color: red;
-    }
-    100% {
-        color: skyblue;
-    }
-}
 
 
 
