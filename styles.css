@@ -1,12 +1,59 @@
 
 
-.
+
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+}
 
 /* Header styles */
 .header {
     text-align: center;
     animation: colorChange 1s infinite alternate;
 }
+
+.milestone {
+    color: red;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+    100% {
+        color: skyblue;
+    }
+}
+
+/* Main styles */
+.main {
+    text-align: center;
+}
+
+.main img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
 .header {
     text-align: center;
     animation: colorChange 1s infinite alternate;
@@ -58,38 +105,7 @@
         color: skyblue;
     }
 }
-/* Styles for milestones */
-.milestone {
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
-.milestone:nth-child(odd) {
-    background-color: #ffd700; /* Gold */
-    color: #000; /* Black */
-}
-.milestone:nth-child(even) {
-    background-color: #4169e1; /* Royal Blue */
-    color: #fff; /* White */
-}
-/* Styles for images */
-.milestone img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-}
-/* Styles for the table */
-table {
-    border: 2px solid #000; /* Black */
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 20px;
-}
-th, td {
-    border: 1px solid #000; /* Black */
-    padding: 8px;
-    text-align: left;
-}
+
 
 
 
