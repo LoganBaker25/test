@@ -1,33 +1,4 @@
-/* General styles */
-body {
-    font-family: Arial, sans-serif;
-}
 
-/* Header styles */
-.header {
-    text-align: center;
-    animation: colorChange 1s infinite alternate;
-}
-
-.milestone {
-    color: red;
-    font-size: 40px;
-    font-family: fantasy;
-}
-
-@keyframes colorChange {
-    0% {
-        color: red;
-    }
-    100% {
-        color: skyblue;
-    }
-}
-
-/* Main styles */
-.main {
-    text-align: center;
-}
 
 .main img {
     display: block;
@@ -65,6 +36,24 @@ h1, h2 {
 .header {
     text-align: center;
     animation: colorChange 1s infinite alternate;
+} .header {
+    text-align: center;
+    animation: colorChange 1s infinite alternate;
+}
+
+.milestone {
+    color: red;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+    100% {
+        color: skyblue;
+    }
 }
 
 .milestone {
