@@ -1,157 +1,94 @@
-
-
-
-
-/* General styles */
+/* Common styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4289cf;
 }
+
+
+.container {
+    padding: 20px;
+}
+
+
+/* Navbar styles */
+.navbar {
+    background-color: #4289cf;
+}
+
+
+.navbar .navbar-brand {
+    color: #4289cf;
+    font-weight: bold;
+}
+
+
+.navbar .navbar-nav .nav-link {
+    color: #4289cf;
+}
+
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #4289cf;
+}
+
 
 /* Header styles */
 .header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
     text-align: center;
-    animation: colorChange 1s infinite alternate;
 }
 
-.milestone {
-    color: red;
-    font-size: 40px;
-    font-family: fantasy;
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
-@keyframes colorChange {
-    0% {
-        color: red;
-    }
-    100% {
-        color: skyblue;
-    }
-}
 
-/* Main styles */
+/* Main content styles */
 .main {
-    text-align: center;
+    margin-top: 50px;
 }
+
 
 .main img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 255, 136, 0.5);
+    transition: transform 0.3s ease-in-out;
 }
+
+
+.main img:hover {
+    transform: scale(1.1);
+}
+
+
+.main p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #495057;
+}
+
 
 /* Footer styles */
 .footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
     text-align: center;
 }
+
 
 .footer a {
-    color: blue;
-    text-decoration: none;
+    color: #ffffff;
 }
+
 
 .footer a:hover {
-    text-decoration: underline;
+    color: #f8f9fa;
 }
-
-.header {
-    text-align: center;
-    animation: colorChange 1s infinite alternate;
-} .header {
-    text-align: center;
-    animation: colorChange 1s infinite alternate;
-}
-
-.milestone {
-    color: red;
-    font-size: 40px;
-    font-family: fantasy;
-}
-
-@keyframes colorChange {
-    0% {
-        color: red;
-    }
-    100% {
-        color: skyblue;
-    }
-}
-
-.milestone {
-    color: red;
-    font-size: 40px;
-    font-family: fantasy;
-}
-
-@keyframes colorChange {
-    0% {
-        color: red;
-    }
-    100% {
-        color: skyblue;
-    }
-}
-.milestone {
-    color: red;
-    font-size: 40px;
-    font-family: fantasy;
-}
-
-@keyframes colorChange {
-    0% {
-        color: red;
-    }
-    100% {
-        color: skyblue;
-    }
-}
-/* Styles for milestones */
-.milestone {
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
-.milestone:nth-child(odd) {
-    background-color: #ffd700; /* Gold */
-    color: #000; /* Black */
-}
-.milestone:nth-child(even) {
-    background-color: #4169e1; /* Royal Blue */
-    color: #fff; /* White */
-}
-/* Styles for images */
-.milestone img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-}
- @keyframes colorChange {
-    0% {
-        color: red;
-    }
-    100% {
-        color: skyblue;
-    }
-}
-table {
-    border: 2px solid #000; /* Black */
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 20px;
-}
-th, td {
-    border: 1px solid #000; /* Black */
-    padding: 8px;
-    text-align: left;
-} @keyframes colorChange {
-    0% {
-        color: red;
-    }
-    100% {
-        color: skyblue;
-    }
-}
-
 
 
 
